@@ -1,0 +1,5 @@
+image
+font name
+font size
+color
+padding/margin

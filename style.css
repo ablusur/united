@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@700&display=swap");
+/*-=---General CSS=-=-=-=-=-=--*/
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/*-=---Header CSS=-=-=-=-=-=--*/
+.strict-header {
+  background-color: #f6f9f9;
+  padding: 31px 0;
+}
+.strict-menu {
+}
+.strict-menu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.strict-menu ul li a {
+  color: #454444;
+  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font: size 15px;
+  text-transform: capitalize;
+  padding: 0 26px;
+}
+
+/*-=---Banner CSS=-=-=-=-=-=--*/
+.strict-banner {
+  background-image: url(images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 185px 0 85px;
+  background-attachment: fixed;
+}
+.strict-banner-text {
+  text-align: center;
+}
+.strict-banner-text h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.strict-banner-text p {
+  color: white;
+  font-size: 20px;
+  border-top: 2px solid #15a4fa;
+  display: inline-block;
+  padding: 40px 20px;
+}
+.strict-banner-buttons {
+  text-align: center;
+}
+.strict-banner-buttons a:first-child {
+  color: white;
+  border: 1px solod #15a4fa;
+  padding: 10px 25px;
+}
+.strict-banner-buttons a:last-child {
+  display: block;
+  margin-top: 170px;
+  color: white;
+}
+
+/*-=---About CSS=-=-=-=-=-=--*/
+.strict-about {
+  background-color: #f6f9f9;
+  padding: 85px 0 90px;
+}
+.strict-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.strict-title p {
+  color: #909090;
+  font-size: 15px;
+}
+.strict-title h2 {
+  font-size: 40px;
+  color: #2d3950;
+}
+
+.strict-about-text {
+  text-align: center;
+}
+.strict-about-text p {
+  font-size: 20px;
+  color: #999999;
+}
+
+/*-=---Service CSS=-=-=-=-=-=--*/
+.strict-service {
+  background-color: white;
+  padding: 80px 0;
+}
+.strict-service-item {
+}
+.strict-service-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(90deg, #48baff 50%, #5fc3ff 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+.strict-service-icon span {
+  font-size: 30px;
+  color: white;
+}
+.strict-service-text {
+  text-align: center;
+}
+.strict-service-text h5 {
+}
+.strict-service-text p {
+}
+
+/*-=---Strict work CSS=-=-=-=-=-=--*/
+.strict-work {
+  background-color: #f6f9f9;
+  padding: 85px 0;
+}
+.strict-work-item {
+  margin-bottom: 25px;
+  position: relative;
+}
+.strict-work-item img {
+  width: 100%;
+}
+.strict-work-overlay {
+  background-color: rgba(21, 164, 250, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.4s;
+}
+.strict-work-overlay ul {
+}
+.strict-work-overlay ul li {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #fff;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strict-work-overlay ul li a {
+  color: white;
+}
+.strict-work-overlay:hover {
+  opacity: 1;
+}
+/*-=---Contant CSS=-=-=-=-=-=--*/
+.strict-contact {
+  background-image: url(images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.strict-contant-overlay {
+  background-color: rgba(45, 57, 80, 0.9);
+  padding: 85px 0;
+}
+.strict-contact .strict-title h2 {
+  color: #fff;
+}
+.user-data {
+  margin-bottom: 15px;
+}
+.user-data input,
+.user-data textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #999999;
+  padding: 5px;
+  border-radius: 3px;
+}
+.form-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-left label {
+  font-size: 14px;
+  color: white;
+  margin-left: 5px;
+}
+.bottom-right input {
+  background-color: transparent;
+  border: 1px solid #15a4fa;
+  padding: 5px 20px;
+  color: #fff;
+}
+.strict-footer {
+  padding: 20px;
+  background-color: #f5f9f9;
+}
+.strict-footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.strict-copyright p {
+  color: #999999;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.strict-social ul {
+  display: flex;
+}
+.strict-social ul li {
+  width: 30px;
+  height: 30px;
+  background-color: #15a4fa;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strict-social ul li a {
+  color: #fff;
+}
